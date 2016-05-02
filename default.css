@@ -1,0 +1,38 @@
+@charset"UTF-8";
+
+body{
+  background-color: #fffff0; /*背景色変更*/
+  background-image: ur1(0502.jpg) /*背景画像*/
+  background-repeat: repeat-x; /*背景画像を横方向だけで繰り返し*/
+  }
+  
+h1{
+  font-size:1.45em;
+  color:#3399cc;
+  border:#94c8b 1px dotted; /*境界線*/
+  border-left:#d0e35d 10px so;id;
+  margin-bottom:0;/*隣り合う要素との間隔*/
+  padding:5px 20px; /*上下 左右*/
+  }
+  
+h1 span{/*型セレクタ*/
+  font-size:1.75em; /*文字を大きく*/
+}
+
+#lead{/*idセレクタ*/
+  color:#008000;
+  text-align:center;
+  text-decoration:underline;
+}
+
+.black{/*classセレクタ*/
+  color:#808080;
+  }
+
+.cat{
+  font-weight:bold;
+  }
+
+.dog{
+  font-style:italic;
+  }
